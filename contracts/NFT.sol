@@ -11,7 +11,7 @@ contract NFT is ERC721URIStorage {
 
     address public owner;
     uint256 public cost;
-
+ 
     constructor(
         string memory _name,
         string memory _symbol,

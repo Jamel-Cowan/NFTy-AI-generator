@@ -1,3 +1,4 @@
+import React from 'react';
 import { ethers } from 'ethers';
 
 const Navigation = ({ account, setAccount }) => {
@@ -10,7 +11,7 @@ const Navigation = ({ account, setAccount }) => {
     return (
         <nav>
             <div className='nav__brand'>
-                <h1>AI NFT Generator</h1>
+                <h1>NFTy AI GENERATOR</h1>
             </div>
 
             {account ? (
